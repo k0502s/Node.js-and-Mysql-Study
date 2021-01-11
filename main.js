@@ -6,7 +6,6 @@ var template = require('./lib/template.js');
 var db = require('./lib/db')
 var topic = require('./lib/topic')
 
-
 var app = http.createServer(function(request,response){
     var _url = request.url;
     var queryData = url.parse(_url, true).query;
